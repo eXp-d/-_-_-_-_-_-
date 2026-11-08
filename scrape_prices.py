@@ -24,7 +24,7 @@ import json
 import os
 import re
 import time
-import tomllib                      # чтение toml (встроено в Python 3.11+)
+import tomllib                    
 from datetime import date, datetime
 from pathlib import Path
 
@@ -49,7 +49,7 @@ YANDEX_BROWSER = next((p for p in YANDEX_PATHS if os.path.exists(p)), YANDEX_PAT
 YANDEX_DRIVER = Path("yandexdriver.exe")
 DEBUG_DIR = OUT_DIR / "debug"
 PAUSE = 3.0                            # пауза между страницами (секунды)
-START_URL = "https://www.perekrestok.ru/"
+START_URL = "https://5ka.ru/"
 
 # единицы измерения: название -> (базовая единица, множитель до базовой)
 UNITS = {

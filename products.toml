@@ -10,7 +10,7 @@
 
 [settings]
 store = "Пятёрочка"
-start_url = "https://5ka.ru/"   # сайт, который откроет --setup
+start_url = "https://5ka.ru/"   
 mrot_rub = 39730        # МРОТ Москвы 2026 (федеральный: 27093)
 basket_share = 0.25     # корзина = 1/4 МРОТ
 tolerance = 0.05        # допуск +-5%
